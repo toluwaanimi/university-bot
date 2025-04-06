@@ -253,8 +253,8 @@ The application uses a virtual environment to manage dependencies and avoid conf
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd university-course-assistant
+   git clone https://github.com/toluwaanimi/university-bot.git
+   cd university-bot
    ```
 
 2. Install dependencies using the Makefile:
