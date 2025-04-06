@@ -1,0 +1,53 @@
+streamlit==1.32.0
+pandas>=2.0.0
+numpy==1.26.3
+sentence-transformers==2.5.1
+scikit-learn==1.4.0
+requests==2.31.0
+beautifulsoup4==4.12.3
+nltk==3.8.1
+python-dotenv>=1.0.0
+lxml==5.1.0
+html5lib==1.1
+fake-useragent==1.4.0
+aiohttp==3.9.1
+jsonschema==4.21.1
+pydantic>=2.10.3
+tenacity==8.2.3
+tqdm>=4.62.0
+validators==0.20.0
+plotly==5.18.0
+firecrawl-py==1.15.0
+google-generativeai>=0.3.0
+fuzzywuzzy==0.18.0
+# Note: If you encounter Levenshtein build issues (especially on macOS with Python 3.13+),
+# use 'make install-fix' instead of 'make install' or run:
+# pip install -r requirements.txt --no-deps fuzzywuzzy
+python-Levenshtein==0.23.0
+openai>=1.0.0
+
+# Additional dependencies for streamlit and openai
+blinker>=1.0.0
+pydantic-core>=2.33.1
+annotated-types>=0.7.0
+typing-inspection>=0.4.0
+anyio>=4.9.0
+distro>=1.9.0
+httpx>=0.28.1
+jiter>=0.9.0
+sniffio>=1.3.1
+joblib>=1.4.2
+threadpoolctl>=3.6.0
+watchdog>=3.0.0  # For better Streamlit performance
+
+# Dependencies for ML and transformers
+huggingface-hub>=0.30.1
+scipy>=1.15.2
+torch>=2.6.0
+transformers>=4.51.0
+safetensors>=0.5.3
+tokenizers>=0.21.1
+regex>=2024.11.6
+filelock>=3.18.0
+fsspec>=2025.3.2
+PyYAML>=6.0.2
