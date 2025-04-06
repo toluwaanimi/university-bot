@@ -196,7 +196,7 @@ The AI processes user questions through the following workflow:
 As a demonstration project, the current implementation has several limitations:
 
 1. **Data Volume Constraints**:
-   - The full dataset contains over 26,000 course records
+   - The full dataset contains over 26,000 course records, (over 200MB of data)
    - Due to token limits in GPT-4's context window, only a subset of courses can be included in each prompt
    - For demonstration purposes, we limit the number of courses sent to the AI to ensure reliable responses
    - In a production environment, this would be addressed through:
